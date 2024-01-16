@@ -1,2 +1,6 @@
 let palabra = COMPUTADORA;
-let intentosRestanntes = 5;
+let intentosRestantes = 5;
+let mostrarIntentos = document.getElementById("intentos");
+
+mostrarIntentos.textContent = intentosRestantes.toString();
+
