@@ -29,3 +29,4 @@ function mostrarMensajeError(mensaje){
     elemento.textContent = mensaje;
     elemento.classList.remove('oculto');
 }
+

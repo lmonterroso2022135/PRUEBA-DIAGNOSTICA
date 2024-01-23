@@ -10,6 +10,7 @@ async function enviarDatos(){
     }
 }
 
+
 function enviarDatosAlServidor(nombre){
     return new Promise((resolve,reject)=>{
         setTimeout(() =>{
