@@ -24,6 +24,7 @@ function mostrarMensajeBienvenida(mensaje){
     elemento.textContent = mensaje;
     elemento.classList.remove('oculto');
 }
+
 function mostrarMensajeError(mensaje){
     const elemento = document.getElementById('mensaje');
     elemento.textContent = mensaje;
